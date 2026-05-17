@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    /* ==================================================
+     FAMÍLIAS DE FONTE
+    ================================================== */
+
+    --fonte-titulo: "Atkinson Hyperlegible", sans-serif;
+    --fonte-texto: "Open Sans", sans-serif;
+
+    /* ==================================================
+     CORES PRIMÁRIAS
+    ================================================== */
+
+    --cor-primaria-900: #000206;
+    --cor-primaria-800: #01040D;
+    --cor-primaria-700: #010513;
+    --cor-primaria-600: #02071A;
+    --cor-primaria-500: #020920;
+    --cor-primaria-400: #15214B;
+    --cor-primaria-300: #273975;
+    --cor-primaria-200: #3A52A0;
+    --cor-primaria-100: #4C6ACA;
+
+    /* ==================================================
+     CORES SECUNDÁRIAS
+    ================================================== */
+
+    --cor-secundaria-900: #331F08;
+    --cor-secundaria-800: #663F10;
+    --cor-secundaria-700: #995E19;
+    --cor-secundaria-600: #CC7E21;
+    --cor-secundaria-500: #FF9D29;
+    --cor-secundaria-400: #FFB154;
+    --cor-secundaria-300: #FFC47F;
+    --cor-secundaria-200: #FFD8A9;
+    --cor-secundaria-100: #FFEBD4;
+
+    /* ==================================================
+     CORES DE DESTAQUE
+    ================================================== */
+
+    --cor-destaque-900: #320606;
+    --cor-destaque-800: #640C0C;
+    --cor-destaque-700: #961111;
+    --cor-destaque-600: #C81717;
+    --cor-destaque-500: #FA1D1D;
+    --cor-destaque-400: #FB4A4A;
+    --cor-destaque-300: #FC7777;
+    --cor-destaque-200: #FDA5A5;
+    --cor-destaque-100: #FED2D2;
+
+    /* ==================================================
+     CORES DE TEXTO
+    ================================================== */
+
+    --cor-texto-900: #050505;
+    --cor-texto-800: #0D0D0D;
+    --cor-texto-700: #1A1A1A;
+    --cor-texto-600: #262626;
+    --cor-texto-500: #011222;
+    --cor-texto-400: #5C5C5C;
+    --cor-texto-300: #ADADAD;
+    --cor-texto-200: #D6D6D6;
+    --cor-texto-100: #EBEBEB;
+
+    /* ==================================================
+     CORES DE SUCESSO
+    ================================================== */
+
+    --cor-sucesso-600: #00B374;
+    --cor-sucesso-500: #00C781;
+    --cor-sucesso-100: #8BDDB3;
+
+    /* ==================================================
+     CORES DE AVISO
+    ================================================== */
+
+    --cor-aviso-600: #E6A832;
+    --cor-aviso-500: #FFBB38;
+    --cor-aviso-100: #FFD688;
+
+    /* ==================================================
+     CORES DE PERIGO
+    ================================================== */
+
+    --cor-perigo-600: #CC3333;
+    --cor-perigo-500: #FF4040;
+    --cor-perigo-100: #FF8C8C;
+
+    /* ==================================================
+     CORES DE FUNDO
+    ================================================== */
+
+    --cor-fundo-branco: #FFFFFF;
+    --cor-fundo-cinza: #F2F4F9;
+
+    /* ==================================================
+     CORES DE SOMBRA
+    ================================================== */
+
+    --cor-sombra-branca: #FFFFFF;
+    --cor-sombra-cinza: #F2F4F9;
+
+    /* ==================================================
+     TIPOGRAFIA - HEADINGS
+    ================================================== */
+
+    --titulo-1: normal 800 64px/105% var(--fonte-titulo);
+    --titulo-2: normal 700 48px/110% var(--fonte-titulo);
+    --titulo-3: normal 600 40px/115% var(--fonte-titulo);
+    --titulo-4: normal 500 32px/120% var(--fonte-titulo);
+    --titulo-5: normal 400 24px/125% var(--fonte-titulo);
+    --titulo-6: normal 400 20px/130% var(--fonte-titulo);
+
+    /* ==================================================
+     TIPOGRAFIA - SUBTÍTULOS
+    ================================================== */
+
+    --subtitulo-1: normal 700 24px/121% var(--fonte-titulo);
+    --subtitulo-2: normal 700 20px/126% var(--fonte-titulo);
+    --subtitulo-3: normal 700 18px/131% var(--fonte-titulo);
+    --subtitulo-4: normal 700 16px/136% var(--fonte-titulo);
+
+    /* ==================================================
+     TIPOGRAFIA - PARÁGRAFOS
+    ================================================== */
+
+    --paragrafo-grande: normal 400 18px/160% var(--fonte-texto);
+    --paragrafo-medio: normal 400 16px/160% var(--fonte-texto);
+    --paragrafo-pequeno: normal 400 14px/160% var(--fonte-texto);
+    --paragrafo-mini: normal 400 12px/160% var(--fonte-texto);
+
+    /* ==================================================
+     TIPOGRAFIA - BODY
+    ================================================== */
+
+    --body-grande: normal 400 24px/156% var(--fonte-texto);
+    --body-medio: normal 400 20px/156% var(--fonte-texto);
+    --body-base: normal 400 18px/153% var(--fonte-texto);
+    --body-pequeno: normal 400 16px/150% var(--fonte-texto);
+    --body-mini: normal 400 14px/153% var(--fonte-texto);
+
+    /* ==================================================
+     TIPOGRAFIA - BOTÕES
+    ================================================== */
+
+    --botao-grande: normal 700 18px/100% var(--fonte-titulo);
+    --botao-medio: normal 700 16px/100% var(--fonte-titulo);
+    --botao-pequeno: normal 700 14px/100% var(--fonte-titulo);
+
+    /* ==================================================
+     TIPOGRAFIA - SISTEMA
+    ================================================== */
+
+    --fonte-sistema-primaria: normal 700 32px/100% var(--fonte-titulo);
+    --fonte-sistema-secundaria: normal 700 24px/100% var(--fonte-titulo);
+    --fonte-sistema-texto: normal 400 24px/100% var(--fonte-texto);
+    --fonte-sistema-destaque: normal 400 24px/100% var(--fonte-texto);
+
+    /* ==================================================
+     TIPOGRAFIA - AUXILIAR
+    ================================================== */
+
+    --caption: normal 400 12px/140% var(--fonte-texto);
+    --label: normal 600 14px/100% var(--fonte-texto);
+}
